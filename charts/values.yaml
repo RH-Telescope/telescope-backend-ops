@@ -10,8 +10,8 @@ service:
   targetport: 8080 
 
 probe:
-  readypath: /
-  livepath:  /
+  readypath: /domains
+  livepath:  /domains
 
 route:
   name: telescope-backend
