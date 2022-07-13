@@ -7,7 +7,7 @@ service:
   name: telescope-backend
   type: ClusterIP
   port: 80
-  targetport: 3000
+  targetport: 8080 
 
 probe:
   readypath: /
